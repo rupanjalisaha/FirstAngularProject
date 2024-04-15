@@ -1,0 +1,21 @@
+<link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Creepster' rel='stylesheet'>
+<div class="login-container">
+    <img class="film" src="assets/images/film_new.jpeg" alt="">
+    <div class="logo">Rotten Mangoes</div>
+    <div class="desc">Rotten Mango is a true crime podcast that focuses on storytelling with a purpose. We believe storytelling is one of the few things that brings people together from all walks of life. Storytelling helps us feel connected, related, and feel empathy for one another. We want to shed light on international stories that are lesser known, as we believe every story is worth telling.
+</div>
+<div class="login-form">
+    <div class="form-group">
+        <label for="uname" >Username </label>
+        <input type="text" id="uname" class="form-control" [(ngModel)]="username"/>
+    </div>
+    <div class="form-group">
+        <label for="pword">Password </label>
+        <input type="password" id="pword" class="form-control" [(ngModel)]="password"/>
+    </div>
+    <div class="btn-container">
+        <div class="error">{{errorMsg}}</div>
+        <button class="btn btn-dark" (click)="login()">LogIn</button>
+    </div>
+</div>
