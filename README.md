@@ -1,6 +1,10 @@
 # MyApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
+This is my first Angular Application. It is a movie rating app where ou can login to find the trending movies as well as the movies available in theatres. You can also find the all time trending movies. If you click on any of these movies you will be able to see the reviews, write your own review and rate the movies.
+
+LogIn credentials -> Username : rupanjali, password: root
+
+Below you can find the instructions to use this project in your own way.
 
 ## Development server
 
